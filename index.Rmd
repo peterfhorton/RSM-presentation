@@ -43,7 +43,7 @@ xaringanExtra::use_editable(expires = 1)
 ###Intro
 .pull-left[
 ####Peter Horton
-![teacher](./RSM_files/images/teacher.png)]
+![teacher](./index_files/images/teacher.png)]
 .pull-right[
 ####Warning
 **Alphabet Soup**
@@ -83,12 +83,12 @@ name: SDM2
 - **SDM** is an *algorithm*, but it is not *automated*. Caseworkers answer questionnaires with simple, numerical answers. The sum of the answers leads to a risk score.
 - **SDM**  tools are used throughout a DCFS case.
 - DCFS uses **SDM** tools for **starting cases**, **removing children**, **reunifying families**, and **offering services.** ]
-  <img src="https://2.bp.blogspot.com/-kPJODEZC43o/WtNnaZU8ucI/AAAAAAAAFCc/9LqktoPUqpsN-sDv3PNmkTFTJ6CQLT9qwCLcBGAs/w1200-h630-p-k-no-nu/bigstock-Female-counselor-writing-down-41875084-700x467.jpg" width="40%" height="auto" style="position: absolute; bottom: 0; left: 31%;">
+  <img src="https://2.bp.blogspot.com/-kPJODEZC43o/WtNnaZU8ucI/AAAAAAAAFCc/9LqktoPUqpsN-sDv3PNmkTFTJ6CQLT9qwCLcBGAs/w1200-h630-p-k-no-nu/bigstock-Female-counselor-writing-down-41875084-700x467.jpg" width="40%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
 Name: SDM_images
 class:inverse, center
-  .pull-left[![SDM1](./RSM_files/images/SDM1.png)]
-  .pull-right[![SDM2](./RSM_files/images/SDM2.png)]
+  .pull-left[![SDM1](./index_files/images/SDM1.png)]
+  .pull-right[![SDM2](./index_files/images/SDM2.png)]
 ---
 name: SDM_point
   .pagenote[*Background*/ **History of Predictive Analytics in LA DCFS**]
@@ -97,7 +97,7 @@ name: SDM_point
   .right-column[
 - Los Angeles has been using a predictive algorithm for over 20 years.
 - We should keep that in mind when listening to claims about how a new, more high tech predictive algorithm will help transform the system.]
-  <img src="https://m.media-amazon.com/images/M/MV5BYjdhMzIzYTAtMjEyYi00ZGJmLTkyZTgtOWU4ZDU0Y2U2ZDc5XkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg" width="40%" height="auto" style="position: absolute; bottom: 0; left: 31%;">
+  <img src="https://m.media-amazon.com/images/M/MV5BYjdhMzIzYTAtMjEyYi00ZGJmLTkyZTgtOWU4ZDU0Y2U2ZDc5XkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg" width="40%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
 name:AURA
   .pagenote[*Background*/ **History of Predictive Analytics in LA DCFS**]
@@ -126,7 +126,7 @@ name:RSM
 - **RSM** = Risk Stratification Model
 - An automated tool, developed by Children's Data Network, part of USC's Social Work school.
 - A tool being created right **now**. The pilot was trained on historical data. It was then tested on real cases in fall 2021.]
-  <img src=./RSM_files/images/risk_flag.png width="40%" height="auto" style="  border: 5px solid #555; position: absolute; bottom: 0; left: 31%;">
+  <img src=./index_files/images/risk_flag.png width="40%" height="auto" style="  border: 5px solid #555; position: absolute; bottom: 4px; left: 31%;">
 ---
 ## Overview of the Risk Stratification Model (RSM)
   The program has three parts:
@@ -137,22 +137,22 @@ name:RSM
 name:overview1
 class: inverse, center
   ## Overview of the RSM
-  ![modelplacement](./RSM_files/images/model_place.png)
+  ![modelplacement](./index_files/images/model_place.png)
 ---
 name: funding_development
   .pagenote[*Funding & Development* / **Who built it, and who's paying?**]
   .pull-left[
   ###Funders
-  ![contract](./RSM_files/images/contract.png)
-  ![funders](./RSM_files/images/funders.png)]
+  ![contract](./index_files/images/contract.png)
+  ![funders](./index_files/images/funders.png)]
   .pull-right[
   ###Developers
-  ![team](./RSM_files/images/team.png)]
+  ![team](./index_files/images/team.png)]
 ---
 name: data1
   .pagenote[*Sources of Data* / **What does the tool see?** ]
   ###Claims to Use Only DCFS Data
-  ![coded](./RSM_files/images/coded.png)
+  ![coded](./index_files/images/coded.png)
 ---
 name: data2
   .pagenote[*Sources of Data* / **What does the tool see?** ]
@@ -178,17 +178,17 @@ name: data3
 name:overview1
 class: inverse, center
   ### What are they using that data for, exactly?
-  ![modelplacement](./RSM_files/images/model_place.png)
+  ![modelplacement](./index_files/images/model_place.png)
 ---
 name: overview2
 class: inverse, center
   ### What is complex-risk?
-  ![complex_charts](./RSM_files/images/complex_charts.png)
-  ---
+  ![complex_charts](./index_files/images/complex_charts.png)
+---
 name: overview3
 class: inverse, center
   ### What is complex-risk?
-  ![complexity](./RSM_files/images/complexity.png)
+  ![complexity](./index_files/images/complexity.png)
 ---
 name: results1
   .pagenote[*Methodology* / **How does the tool work?**]
@@ -197,7 +197,7 @@ name: results1
   .right-column[
 - Unlike **AFST** or **SDM**, the **RSM** tool doesn't suggest a decision to a caseworker.
 - The **RSM** is meant to tell caseworkers to focus supervision on high risk cases or to transfer those cases to the most experienced caseworkers.]
-<img src="./RSM_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 0; left: 31%;">
+<img src="./index_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
 name: results2
   .pagenote[*Methodology* / **How does the tool work?**]
