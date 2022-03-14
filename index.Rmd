@@ -86,11 +86,13 @@ name: SDM2
   <img src="https://2.bp.blogspot.com/-kPJODEZC43o/WtNnaZU8ucI/AAAAAAAAFCc/9LqktoPUqpsN-sDv3PNmkTFTJ6CQLT9qwCLcBGAs/w1200-h630-p-k-no-nu/bigstock-Female-counselor-writing-down-41875084-700x467.jpg" width="40%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
 Name: SDM_images
-class:inverse, center
-  .pull-left[
-  ![SDM1](./index_files/images/sdm1.png)]
-  .pull-right[
-  ![SDM2](./index_files/images/sdm2.png)]
+class:inverse
+.pull-left[
+![left](./index_files/images/sdm_left.png)
+]
+.pull-right[
+![right](./index_files/images/sdm_right.png)
+]
 ---
 name: SDM_point
   .pagenote[*Background*/ **History of Predictive Analytics in LA DCFS**]
