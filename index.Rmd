@@ -14,7 +14,6 @@ output:
 ---
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-
 knitr::opts_chunk$set(
   fig.width=9, fig.height=3.5, fig.retina=3,
   out.width = "100%",
@@ -25,7 +24,6 @@ knitr::opts_chunk$set(
   hiline = TRUE
 )
 ```
-
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo_accent(
@@ -34,12 +32,11 @@ style_duo_accent(
   inverse_header_color = "#FFFFFF"
 )
 ```
-
 ```{r xaringanExtra, echo=FALSE}
 library(xaringanExtra)
 xaringanExtra::use_editable(expires = 1)
+xaringanExtra::use_scribble()
 ```
-
 ###Intro
 .pull-left[
 ####Peter Horton
@@ -50,16 +47,21 @@ xaringanExtra::use_editable(expires = 1)
 ![soup](https://specialeducationcounsel.com/wp-content/uploads/2017/07/download.jpg)]
 ---
 name:toc
+###Risk Stratification Model
 - *Background* / **History of Predictive Analytics in LA DCFS**
   ![Robot](https://img.icons8.com/plasticine/75/000000/bot.png)
-- *Present* / **Overview of the Risk Stratification Model**
-  ![Present](https://img.icons8.com/plasticine/75/000000/time.png)
 - *Funding & Development* / **Who built it, and who's paying?**
   ![Money](https://img.icons8.com/plasticine/75/000000/money.png)
-- *Sources of Data* / **What does the tool see?**
-  ![Eye](https://img.icons8.com/plasticine/75/000000/visible.png)
 - *Methodology* / **How does the tool work?**
   ![Hammer](https://img.icons8.com/plasticine/75/000000/hammer.png)
+- *Sources of Data* / **What does the tool see?**
+  ![Eye](https://img.icons8.com/plasticine/75/000000/visible.png)
+---
+name:toc
+class:center
+###Risk Stratification Model
+- *Background* / **History of Predictive Analytics in LA DCFS**  
+  ![Robot](https://img.icons8.com/plasticine/100/000000/bot.png)
 ---
 name: SDM1
   .pagenote[*Background*/ **History of Predictive Analytics in LA DCFS**]
@@ -72,6 +74,7 @@ name: SDM1
 - **SDM** = Structured Decision Making
 - Developed by a nonprofit,  National Council on Crime and Delinquency (NCCD), now called Evident Change.
 - **SDM** is used nationwide, and has been used in Los Angeles for about twenty years.  ]
+  <img src="https://2.bp.blogspot.com/-kPJODEZC43o/WtNnaZU8ucI/AAAAAAAAFCc/9LqktoPUqpsN-sDv3PNmkTFTJ6CQLT9qwCLcBGAs/w1200-h630-p-k-no-nu/bigstock-Female-counselor-writing-down-41875084-700x467.jpg" width="40%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
 name: SDM2
   .pagenote[*Background*/ **History of Predictive Analytics in LA DCFS**]
@@ -112,7 +115,7 @@ name:AURA
   ]
 
   .right-column[
-- AURA = Approach to Understanding Risk Assessment
+- **AURA** = Approach to Understanding Risk Assessment
 - An automated tool, developed by SAS, a private company.
 - The pilot was developed in 2014, and used only on historical data, not real cases.
 - Assessment from a 2017 Office of Child Protection Report:
@@ -132,16 +135,11 @@ name:RSM
 - A tool being created right **now**. The pilot was trained on historical data. It was then tested on real cases in fall 2021.]
   <img src=./index_files/images/risk_flag.png width="40%" height="auto" style="  border: 5px solid #555; position: absolute; bottom: 4px; left: 31%;">
 ---
-## Overview of the Risk Stratification Model (RSM)
-  The program has three parts:
-- Uses historical DCFS data to make predictions.
-- Identifies about 10% of DCFS cases as **complex-risk**.
-- Presents information on **complex-risk** cases to supervisors.
----
-name:overview1
-class: inverse, center
-  ## Overview of the RSM
-  ![modelplacement](./index_files/images/model_place.png)
+name:toc
+class: center
+###Risk Stratification Model
+- *Funding & Development* / **Who built it, and who's paying?**  
+  ![Money](https://img.icons8.com/plasticine/100/000000/money.png)
 ---
 name: funding_development
   .pagenote[*Funding & Development* / **Who built it, and who's paying?**]
@@ -153,70 +151,88 @@ name: funding_development
   ###Developers
   ![team](./index_files/images/team.png)]
 ---
-name: data1
-  .pagenote[*Sources of Data* / **What does the tool see?** ]
-  ###Claims to Use Only DCFS Data
-  ![coded](./index_files/images/coded.png)
+name:toc
+class: center
+###Risk Stratification Model
+
+- *Methodology* / **How does the tool work?**  
+  ![Hammer](https://img.icons8.com/plasticine/100/000000/hammer.png)
 ---
-name: data2
-  .pagenote[*Sources of Data* / **What does the tool see?** ]
-  ###What Does DCFS Data Include?
-  The tool developers emphasize that the **RSM** is different from the other tool they worked on, the **AFST**. While the **AFST** uses public records from multiple county agencies, the **RSM** only uses data from California's Child Welfare database (**CWS/CMS**).
+### Overview of the Risk Stratification Model (RSM)
+- Gathers data from a referral and from all past data DCFS has about children and adults in the investigation.
+- Identifies about 10% of DCFS cases as **complex-risk**.
+- Presents information on **complex-risk** cases to supervisors.  
+
+<img src=./index_files/images/risk_flag.png width="40%" height="auto" style="  border: 5px solid #555; position: absolute; bottom: 4px; left: 31%;">
 ---
-name: data3
-  .pagenote[*Sources of Data* / **What does the tool see?** ]
-  .pull-left[
-**What information would DCFS definitely have after a caseworker begins an investigation?**
-.can-edit[
-- Child's name
-- Age
-  ]
-  ]
-  .pull-right[
-**What's some information DCFS might have that would be more surprising?**
-.can-edit[
-- ???
-  ]
-  ]
----
-name:overview1
+name:function1
 class: inverse, center
-  ### What are they using that data for, exactly?
+  ### When is the model used?
   ![modelplacement](./index_files/images/model_place.png)
 ---
-name: overview2
+name: function2
 class: inverse, center
   ### What is complex-risk?
   ![complex_charts](./index_files/images/complex_charts.png)
 ---
-name: overview3
-class: inverse, center
-  ### What is complex-risk?
-  ![complexity](./index_files/images/complexity.png)
----
-name: results1
+name: function3
   .pagenote[*Methodology* / **How does the tool work?**]
   .left-column[
   ##How will DCFS use the tool?]
   .right-column[
 - Unlike **AFST** or **SDM**, the **RSM** tool doesn't suggest a decision to a caseworker.
-- The **RSM** is meant to tell caseworkers to focus supervision on high risk cases or to transfer those cases to the most experienced caseworkers.]
-<img src="./index_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
+- The **RSM** is meant to tell supervisors to focus oversight on high risk cases or to transfer those cases to the most experienced caseworkers.]
+  <img src="./index_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
-name: results2
+name: function4
   .pagenote[*Methodology* / **How does the tool work?**]
   .left-column[
   ##How will DCFS use the tool?
   ]
   .right-column[
-- DCFS and CDN have also said that the tool can help reduce racial bias. They say the tool can lead to:
-> "Deep dive review to help identify whether many of these reports could have been (or should have been) screened out."
-[...]
-"Regional office review of potential community service needs, mandated reporter training that could address disparities."  
-[...]
-"Possible alternative investigation protocols initiated with community partners for low-complexity reports."  
+- DCFS and CDN have also said that the tool can help reduce racial bias. They plan to look at:
+-   
+  >"whether many of these reports could have been (or should have been) screened out."
+
+-    
+  >"potential community service needs, [eg.] mandated reporter training."  
+
+-     
+  >"possible alternative investigation protocols initiated with community partners for low-complexity reports."  
 
 ]
+---
+name:toc
+class:center
+###Risk Stratification Model
+- *Sources of Data* / **What does the tool see?**  
+  ![Eye](https://img.icons8.com/plasticine/100/000000/visible.png)
+---
+name: data1
+  .pagenote[*Sources of Data* / **What does the tool see?** ]
+  ###What data does the tool use?
+  The tool developers emphasize that the **RSM** is different from the other tool they worked on, the **AFST**. While the **AFST** uses public records from multiple county agencies, the **RSM** only uses data from California's Child Welfare database (**CWS/CMS**).
+---
+name: data2
+  .pagenote[*Sources of Data* / **What does the tool see?** ]
+  ###What data does the tool use?
+  ![coded](./index_files/images/coded.png)
+---
+name: data3
+  .pagenote[*Sources of Data* / **What does the tool see?** ]
+  .pull-left[
+**What information would be included in the referral and past DCFS contact?**
+.can-edit[
+- Child's name, age, gender
+-
+  ]
+  ]
+  .pull-right[
+**What's information DCFS might have that we're not sure about or that would be surprising?**
+.can-edit[
+- ???
+  ]
+  ]
 ---
 #Questions
 - Will a caregiver be told when an investigation is marked "complex-risk?"
