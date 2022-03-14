@@ -184,6 +184,11 @@ name: overview2
 class: inverse, center
   ### What is complex-risk?
   ![complex_charts](./RSM_files/images/complex_charts.png)
+  ---
+name: overview3
+class: inverse, center
+  ### What is complex-risk?
+  ![complexity](./RSM_files/images/complexity.png)
 ---
 name: results1
   .pagenote[*Methodology* / **How does the tool work?**]
@@ -192,7 +197,7 @@ name: results1
   .right-column[
 - Unlike **AFST** or **SDM**, the **RSM** tool doesn't suggest a decision to a caseworker.
 - The **RSM** is meant to tell caseworkers to focus supervision on high risk cases or to transfer those cases to the most experienced caseworkers.]
-<img src="./RSM_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 0; left: 20%;">
+<img src="./RSM_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 0; left: 31%;">
 ---
 name: results2
   .pagenote[*Methodology* / **How does the tool work?**]
