@@ -87,8 +87,10 @@ name: SDM2
 ---
 Name: SDM_images
 class:inverse, center
-  .pull-left[![SDM1](./index_files/images/SDM1.png)]
-  .pull-right[![SDM2](./index_files/images/SDM2.png)]
+  .pull-left[
+  ![SDM1](./index_files/images/SDM1.png)]
+  .pull-right[
+  ![SDM2](./index_files/images/SDM2.png)]
 ---
 name: SDM_point
   .pagenote[*Background*/ **History of Predictive Analytics in LA DCFS**]
