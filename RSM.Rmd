@@ -87,8 +87,8 @@ name: SDM2
 ---
 Name: SDM_images
 class:inverse, center
-  .pull-left[![SDM1](./RSM_files/images/SDM1.png))]
-  .pull-right[![SDM2](./RSM_files/images/SDM2.png))]
+  .pull-left[![SDM1](./RSM_files/images/SDM1.png)]
+  .pull-right[![SDM2](./RSM_files/images/SDM2.png)]
 ---
 name: SDM_point
   .pagenote[*Background*/ **History of Predictive Analytics in LA DCFS**]
@@ -192,6 +192,7 @@ name: results1
   .right-column[
 - Unlike **AFST** or **SDM**, the **RSM** tool doesn't suggest a decision to a caseworker.
 - The **RSM** is meant to tell caseworkers to focus supervision on high risk cases or to transfer those cases to the most experienced caseworkers.]
+<img src="./RSM_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 0; left: 20%;">
 ---
 name: results2
   .pagenote[*Methodology* / **How does the tool work?**]
