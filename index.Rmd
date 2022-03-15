@@ -181,7 +181,7 @@ name: function3
   ##How will DCFS use the tool?]
   .right-column[
 - Unlike **AFST** or **SDM**, the **RSM** tool doesn't suggest a decision to a caseworker.
-- The **RSM** is meant to tell supervisors to focus oversight on high risk cases or to transfer those cases to the most experienced caseworkers.]
+- The **RSM** is meant to tell supervisors to focus oversight on high risk cases or to assign those cases to the most experienced caseworkers.]
   <img src="./index_files/images/complexity.png" width="60%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
 name: function4
@@ -209,14 +209,14 @@ class:center
   ![Eye](https://img.icons8.com/plasticine/100/000000/visible.png)
 ---
 name: data1
-  .pagenote[*Sources of Data* / **What does the tool see?** ]
-  ###What data does the tool use?
-  The tool developers emphasize that the **RSM** is different from the other tool they worked on, the **AFST**. While the **AFST** uses public records from multiple county agencies, the **RSM** only uses data from California's Child Welfare database (**CWS/CMS**).
----
-name: data2
-  .pagenote[*Sources of Data* / **What does the tool see?** ]
-  ###What data does the tool use?
-  ![coded](./index_files/images/coded.png)
+.pagenote[*Sources of Data* / **What does the tool see?** ]  
+.left-column[
+##What data does the tool use?
+]
+.right-column[
+-   The developers emphasize that the **RSM** is different from the **AFST**.
+- The **RSM** only uses data from California's Child Welfare database (**CWS/CMS**), not other county agencies. ]  
+<img src="./index_files/images/coded.png" width="60%" height="auto" style="position: absolute; bottom: 4px; left: 31%;">
 ---
 name: data3
   .pagenote[*Sources of Data* / **What does the tool see?** ]
@@ -240,6 +240,7 @@ name: data3
 - What are supervisors supposed to do for "complex-risk" families?
   - Do they have additional services and resources that would be helpful?
   - If so, why do those services need to come through DCFS?
+  - Will they be more likely to suggest family separation?
 ---
 #Next steps
 - Possibly meeting with Jennie Feria, a lead on the project at DCFS.
